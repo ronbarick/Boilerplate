@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Trial Started</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background-color: #2196F3;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .content {
+            background-color: #f9f9f9;
+            padding: 30px;
+            border-radius: 0 0 5px 5px;
+        }
+
+        .highlight {
+            background-color: #fff3cd;
+            padding: 15px;
+            border-left: 4px solid #ffc107;
+            margin: 20px 0;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 12px;
+            color: #666;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #2196F3;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Welcome to Your Trial!</h1>
+    </div>
+    <div class="content">
+        <h2>Hello {{TenantName}},</h2>
+        <p>Your {{PlanName}} trial has started successfully!</p>
+        <div class="highlight">
+            <strong>Trial Period:</strong> {{TrialDays}} days<br>
+            <strong>Trial Ends:</strong> {{TrialEndDate}}<br>
+            <strong>Plan Features:</strong> {{PlanFeatures}}
+        </div>
+        <p>Explore all the features and see how our platform can help your business grow.</p>
+        <a href="{{DashboardUrl}}" class="btn">Go to Dashboard</a>
+        <p>If you have any questions, our support team is here to help!</p>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Our Platform. All rights reserved.</p>
+    </div>
+</body>
+
+</html>

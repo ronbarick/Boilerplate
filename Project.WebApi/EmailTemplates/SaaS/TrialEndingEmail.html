@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Trial Ending Soon</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background-color: #FF9800;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .content {
+            background-color: #f9f9f9;
+            padding: 30px;
+            border-radius: 0 0 5px 5px;
+        }
+
+        .warning {
+            background-color: #fff3cd;
+            padding: 15px;
+            border-left: 4px solid #ff9800;
+            margin: 20px 0;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 12px;
+            color: #666;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Your Trial is Ending Soon</h1>
+    </div>
+    <div class="content">
+        <h2>Hello {{TenantName}},</h2>
+        <p>Your {{PlanName}} trial will end in {{DaysRemaining}} days.</p>
+        <div class="warning">
+            <strong>Trial Ends:</strong> {{TrialEndDate}}<br>
+            <strong>Don't lose access to:</strong> {{PlanFeatures}}
+        </div>
+        <p>Subscribe now to continue enjoying all the features without interruption.</p>
+        <a href="{{SubscribeUrl}}" class="btn">Subscribe Now</a>
+        <p>Questions? Contact our support team anytime.</p>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Our Platform. All rights reserved.</p>
+    </div>
+</body>
+
+</html>

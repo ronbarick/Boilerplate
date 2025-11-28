@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Payment Failed</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background-color: #f44336;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .content {
+            background-color: #f9f9f9;
+            padding: 30px;
+            border-radius: 0 0 5px 5px;
+        }
+
+        .error {
+            background-color: #f8d7da;
+            padding: 15px;
+            border-left: 4px solid #dc3545;
+            margin: 20px 0;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 12px;
+            color: #666;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #f44336;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Payment Failed</h1>
+    </div>
+    <div class="content">
+        <h2>Hello {{TenantName}},</h2>
+        <p>We were unable to process your payment for {{PlanName}}.</p>
+        <div class="error">
+            <strong>Reason:</strong> {{FailureReason}}<br>
+            <strong>Amount:</strong> {{Currency}} {{Amount}}<br>
+            <strong>Next Retry:</strong> {{NextRetryDate}}
+        </div>
+        <p>Please update your payment method to avoid service interruption.</p>
+        <a href="{{UpdatePaymentUrl}}" class="btn">Update Payment Method</a>
+        <p>Need help? Contact our support team.</p>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Our Platform. All rights reserved.</p>
+    </div>
+</body>
+
+</html>
