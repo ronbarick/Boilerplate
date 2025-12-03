@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
-using Project.Core.Emailing;
-using Project.Core.Entities;
-using Project.Core.Interfaces;
+
+using Project.Domain.Entities;
+using Project.Domain.Interfaces;
 
 namespace Project.Application.BackgroundJobs;
 

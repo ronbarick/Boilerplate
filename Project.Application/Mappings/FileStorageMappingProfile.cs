@@ -1,6 +1,6 @@
 using AutoMapper;
-using Project.Core.Dtos.FileStorage;
-using Project.Core.Entities;
+using Project.Domain.Dtos.FileStorage;
+using Project.Domain.Entities;
 
 namespace Project.Application.Mappings;
 

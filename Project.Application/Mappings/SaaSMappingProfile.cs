@@ -1,6 +1,6 @@
 using AutoMapper;
 using Project.Application.SaaS.Dtos;
-using Project.Core.Entities.SaaS;
+using Project.Domain.Entities.SaaS;
 
 namespace Project.Application.Mappings;
 

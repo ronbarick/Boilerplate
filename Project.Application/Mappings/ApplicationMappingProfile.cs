@@ -4,7 +4,7 @@ using Project.Application.Tenants.Dtos;
 using Project.Application.Users.Dtos;
 using Project.Application.Roles.Dtos;
 using Project.Application.Students.Dtos;
-using Project.Core.Entities;
+using Project.Domain.Entities;
 
 namespace Project.Application.Mappings;
 

@@ -1,6 +1,6 @@
 using System;
 using System.Threading.Tasks;
-using Project.Core.Interfaces;
+using Project.Domain.Interfaces;
 
 namespace Project.Application.SaaS.Coupons;
 

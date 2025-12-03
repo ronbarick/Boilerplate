@@ -2,10 +2,10 @@ using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using Project.Application.SaaS.Dtos;
 using Project.Application.Services;
-using Project.Core.Entities.SaaS;
-using Project.Core.Interfaces;
-using Project.Core.Interfaces.DependencyInjection;
-using Project.Core.Localization;
+using Project.Domain.Entities.SaaS;
+using Project.Domain.Interfaces;
+using Project.Domain.Interfaces.DependencyInjection;
+using Project.Domain.Localization;
 
 namespace Project.Application.SaaS.Plans;
 

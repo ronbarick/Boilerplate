@@ -5,20 +5,21 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using Project.Application.Common.Dtos;
-using Project.Core.Attributes;
-using Project.Core.Constants;
-using Project.Core.Entities;
-using Project.Core.Interfaces;
+using Project.Domain.Attributes;
+
+using Project.Domain.Entities;
+using Project.Domain.Interfaces;
 using Project.Infrastructure.Extensions;
 using Project.Application.Services;
 
 using Project.Application.Students.Dtos;
-using Project.Core.Emailing;
-using Project.Core.Localization;
-using Project.Core.Interfaces.Notifications;
-using Project.Core.Entities.Notifications;
-using Project.Core.Interfaces.Reporting;
-using Project.Core.Dtos.Reporting;
+
+using Project.Domain.Localization;
+using Project.Domain.Interfaces.Notifications;
+using Project.Domain.Entities.Notifications;
+using Project.Domain.Interfaces.Reporting;
+using Project.Domain.Dtos.Reporting;
+
 
 namespace Project.Application.Students;
 
@@ -28,9 +29,11 @@ public class StudentAppService : AppServiceBase, IStudentAppService
     private readonly IMapper _mapper;
     private readonly IEmailSender _emailSender;
     private readonly IEmailTemplateProvider _templateProvider;
-    private readonly Core.BackgroundJobs.IBackgroundJobManager _backgroundJobManager;
+    private readonly IBackgroundJobManager _backgroundJobManager;
     private readonly INotificationPublisher _notificationPublisher;
     private readonly IReportService _reportService;
+    private readonly IDistributedCacheService _cache;
+    private readonly ICacheInvalidationService _cacheInvalidation;
 
     public StudentAppService(
         IRepository<Student> studentRepository,
@@ -40,10 +43,12 @@ public class StudentAppService : AppServiceBase, IStudentAppService
         IPermissionChecker permissionChecker,
         IEmailSender emailSender,
         IEmailTemplateProvider templateProvider,
-        Core.BackgroundJobs.IBackgroundJobManager backgroundJobManager,
+        IBackgroundJobManager backgroundJobManager,
         INotificationPublisher notificationPublisher,
         ILocalizationManager localizationManager,
-        IReportService reportService)
+        IReportService reportService,
+        IDistributedCacheService cache,
+        ICacheInvalidationService cacheInvalidation)
         : base(currentUser, currentTenant, permissionChecker, localizationManager)
     {
         _studentRepository = studentRepository;
@@ -53,13 +58,26 @@ public class StudentAppService : AppServiceBase, IStudentAppService
         _backgroundJobManager = backgroundJobManager;
         _notificationPublisher = notificationPublisher;
         _reportService = reportService;
+        _cache = cache;
+        _cacheInvalidation = cacheInvalidation;
     }
 
-    [RequiresPermission(PermissionNames.Pages_Students)]
     public async Task<PagedResultDto<StudentDto>> GetListAsync(GetStudentsInput input)
     {
         input.Normalize();
 
+        // Generate cache key based on tenant, filter, sorting, and paging
+        var tenantId = CurrentTenant.Id?.ToString() ?? "host";
+        var cacheKey = $"students:list:{tenantId}:{input.Filter}:{input.Sorting}:{input.SkipCount}:{input.MaxResultCount}";
+
+        // Try to get from cache
+        var cachedResult = await _cache.GetAsync<PagedResultDto<StudentDto>>(cacheKey);
+        if (cachedResult != null)
+        {
+            return cachedResult;
+        }
+
+        // If not in cache, load from database
         var query = _studentRepository.GetQueryable();
 
         // Apply filter/search using WhereIf
@@ -77,11 +95,16 @@ public class StudentAppService : AppServiceBase, IStudentAppService
             .PageBy(input.SkipCount, input.MaxResultCount)
             .ToListAsync();
 
-        return new PagedResultDto<StudentDto>
+        var result = new PagedResultDto<StudentDto>
         {
             Items = _mapper.Map<List<StudentDto>>(students),
             TotalCount = totalCount
         };
+
+        // Cache for 5 minutes
+        await _cache.SetAsync(cacheKey, result, TimeSpan.FromMinutes(5));
+
+        return result;
     }
 
     [RequiresPermission(PermissionNames.Pages_Students, PermissionNames.Pages_Students_Create)]
@@ -102,6 +125,9 @@ public class StudentAppService : AppServiceBase, IStudentAppService
         });
 
         await _emailSender.SendAsync(student.EmailAddress, "Welcome to Student Management System", emailBody);
+
+        // Invalidate student list cache
+        await InvalidateStudentCacheAsync();
 
         return _mapper.Map<StudentDto>(student);
     }
@@ -124,13 +150,19 @@ public class StudentAppService : AppServiceBase, IStudentAppService
         student.Grade = input.Grade;
 
         await _studentRepository.UpdateAsync(student);
+        
+        // Invalidate student list cache
+        await InvalidateStudentCacheAsync();
+        
         return _mapper.Map<StudentDto>(student);
     }
 
-    [RequiresPermission(PermissionNames.Pages_Students, PermissionNames.Pages_Students_Delete)]
     public async Task DeleteAsync(Guid id)
     {
         await _studentRepository.DeleteAsync(id);
+        
+        // Invalidate student list cache
+        await InvalidateStudentCacheAsync();
     }
 
     [RequiresPermission(PermissionNames.Pages_Students)]
@@ -173,5 +205,12 @@ public class StudentAppService : AppServiceBase, IStudentAppService
             // Map to DTOs for the report
             return _mapper.Map<List<StudentDto>>(students);
         }, reportName: "StudentReport"); // Server controls the report name
+    }
+
+    private async Task InvalidateStudentCacheAsync()
+    {
+        // Invalidate all student list cache entries for current tenant
+        var tenantId = CurrentTenant.Id?.ToString() ?? "host";
+        await _cache.RemoveByPrefixAsync($"students:list:{tenantId}");
     }
 }

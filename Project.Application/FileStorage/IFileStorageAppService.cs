@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Http;
-using Project.Core.Dtos.FileStorage;
+using Project.Domain.Dtos.FileStorage;
 
 namespace Project.Application.FileStorage;
 

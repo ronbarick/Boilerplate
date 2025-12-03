@@ -1,11 +1,11 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Project.Application.Services;
-using Project.Core.Attributes;
-using Project.Core.Constants;
-using Project.Core.Dtos.FileStorage;
-using Project.Core.Interfaces;
-using Project.Core.Localization;
+using Project.Domain.Attributes;
+
+using Project.Domain.Dtos.FileStorage;
+using Project.Domain.Interfaces;
+using Project.Domain.Localization;
 
 namespace Project.Application.FileStorage;
 

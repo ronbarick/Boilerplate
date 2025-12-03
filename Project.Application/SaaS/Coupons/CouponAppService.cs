@@ -1,8 +1,8 @@
 using System;
 using System.Threading.Tasks;
 using Project.Application.Services;
-using Project.Core.Interfaces;
-using Project.Core.Localization;
+using Project.Domain.Interfaces;
+using Project.Domain.Localization;
 
 namespace Project.Application.SaaS.Coupons;
 

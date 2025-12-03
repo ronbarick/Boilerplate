@@ -4,14 +4,14 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Project.Application.Common.Dtos;
-using Project.Core.Attributes;
-using Project.Core.Constants;
-using Project.Core.Entities;
-using Project.Core.Interfaces;
+using Project.Domain.Attributes;
+
+using Project.Domain.Entities;
+using Project.Domain.Interfaces;
 using Project.Application.Services;
 
 using Project.Application.Permissions.Dtos;
-using Project.Core.Localization;
+using Project.Domain.Localization;
 
 namespace Project.Application.Permissions;
 

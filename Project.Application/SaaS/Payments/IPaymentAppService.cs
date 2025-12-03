@@ -1,8 +1,8 @@
 using System;
 using System.Threading.Tasks;
 using Project.Application.SaaS.Dtos;
-using Project.Core.Enums;
-using Project.Core.Interfaces;
+
+using Project.Domain.Interfaces;
 
 namespace Project.Application.SaaS.Payments;
 

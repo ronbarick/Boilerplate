@@ -1,5 +1,5 @@
 using Microsoft.Extensions.Logging;
-using Project.Core.Interfaces;
+using Project.Domain.Interfaces;
 
 namespace Project.Application.BackgroundJobs.SaaS;
 

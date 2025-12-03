@@ -3,17 +3,17 @@ using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Project.Application.Common.Dtos;
-using Project.Core.Attributes;
-using Project.Core.Constants;
-using Project.Core.Entities;
-using Project.Core.Interfaces;
+using Project.Domain.Attributes;
+
+using Project.Domain.Entities;
+using Project.Domain.Interfaces;
 using Project.Infrastructure.Extensions;
 using Project.Application.Services;
 using Project.Application.Users.Dtos;
-using Project.Core.Localization;
-using Project.Core.BackgroundJobs;
+using Project.Domain.Localization;
+
 using Project.Application.BackgroundJobs;
-using Project.Core.Exceptions;
+
 
 namespace Project.Application.Users;
 
@@ -170,7 +170,7 @@ public class UserAppService : AppServiceBase, IUserAppService
     }
 
     // Password management operations
-    [Project.Core.Attributes.RemoteService(false)]
+    [Project.Domain.Attributes.RemoteService(false)]
     public async Task ForgotPasswordAsync(ForgotPasswordDto input)
     {
         _logger.LogInformation("Forgot password request for email: {Email}", input.EmailAddress);
@@ -191,7 +191,7 @@ public class UserAppService : AppServiceBase, IUserAppService
         _logger.LogInformation("Queued password reset email for user {UserId}", user.Id);
     }
 
-    [Project.Core.Attributes.RemoteService(false)]
+    [Project.Domain.Attributes.RemoteService(false)]
     public async Task ResetPasswordAsync(ResetPasswordDto input)
     {
         _logger.LogInformation("Resetting password for user {UserId}", input.UserId);
@@ -199,7 +199,7 @@ public class UserAppService : AppServiceBase, IUserAppService
         _logger.LogInformation("Password reset completed for user {UserId}", input.UserId);
     }
 
-    [Project.Core.Attributes.RemoteService(false)]
+    [Project.Domain.Attributes.RemoteService(false)]
     public async Task SetPasswordAsync(SetPasswordDto input)
     {
         _logger.LogInformation("Setting password for user {UserId}", input.UserId);
@@ -215,7 +215,7 @@ public class UserAppService : AppServiceBase, IUserAppService
     }
 
     // Email confirmation operations
-    [Project.Core.Attributes.RemoteService(false)]
+    [Project.Domain.Attributes.RemoteService(false)]
     public async Task ConfirmEmailAsync(ConfirmEmailDto input)
     {
         _logger.LogInformation("Confirming email for user {UserId}", input.UserId);
@@ -235,7 +235,7 @@ public class UserAppService : AppServiceBase, IUserAppService
         _logger.LogInformation("Email confirmed successfully for user {UserId}", input.UserId);
     }
 
-    [Project.Core.Attributes.RemoteService(false)]
+    [Project.Domain.Attributes.RemoteService(false)]
     public async Task ResendConfirmationEmailAsync(Guid userId)
     {
         _logger.LogInformation("Resending confirmation email for user {UserId}", userId);

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
-using Project.Core.Entities.Notifications;
-using Project.Core.Notifications;
+using Project.Domain.Entities.Notifications;
+using Project.Domain.Notifications;
 
 namespace Project.Application.Notifications
 {

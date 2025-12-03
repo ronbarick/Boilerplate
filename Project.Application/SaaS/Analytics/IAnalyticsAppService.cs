@@ -1,7 +1,7 @@
 using System;
 using System.Threading.Tasks;
 using Project.Application.SaaS.Dtos;
-using Project.Core.Interfaces;
+using Project.Domain.Interfaces;
 
 namespace Project.Application.SaaS.Analytics;
 

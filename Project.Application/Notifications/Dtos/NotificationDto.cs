@@ -1,5 +1,5 @@
 using System;
-using Project.Core.Entities.Notifications;
+using Project.Domain.Entities.Notifications;
 
 namespace Project.Application.Notifications.Dtos
 {

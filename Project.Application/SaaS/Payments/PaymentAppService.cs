@@ -3,9 +3,9 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Project.Application.SaaS.Dtos;
 using Project.Application.Services;
-using Project.Core.Enums;
-using Project.Core.Interfaces;
-using Project.Core.Localization;
+
+using Project.Domain.Interfaces;
+using Project.Domain.Localization;
 
 namespace Project.Application.SaaS.Payments;
 

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Project.Application.Notifications.Dtos;
 using Project.Application.Services;
-using Project.Core.Interfaces;
-using Project.Core.Interfaces.Notifications;
-using Project.Core.Localization;
+using Project.Domain.Interfaces;
+using Project.Domain.Interfaces.Notifications;
+using Project.Domain.Localization;
 
 namespace Project.Application.Notifications
 {

@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Project.Application.Notifications.Dtos;
 using Project.Application.Services;
-using Project.Core.Interfaces;
+using Project.Domain.Interfaces;
 
 namespace Project.Application.Notifications
 {

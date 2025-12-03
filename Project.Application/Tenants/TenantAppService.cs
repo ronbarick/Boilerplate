@@ -5,16 +5,16 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using Project.Application.Common.Dtos;
-using Project.Core.Attributes;
-using Project.Core.Constants;
-using Project.Core.Entities;
-using Project.Core.Interfaces;
+using Project.Domain.Attributes;
+
+using Project.Domain.Entities;
+using Project.Domain.Interfaces;
 using Project.Infrastructure.Extensions;
 using Project.Infrastructure.Services;
 using Project.Application.Services;
 
 using Project.Application.Tenants.Dtos;
-using Project.Core.Localization;
+using Project.Domain.Localization;
 using Microsoft.AspNetCore.Authorization;
 
 namespace Project.Application.Tenants;
@@ -130,5 +130,18 @@ public class TenantAppService : AppServiceBase, ITenantAppService
             TenantId = tenant.Id,
             Name = tenant.Name
         };
+    }
+
+    [AllowAnonymous]
+    public async Task<TenantDto?> GetByNameAsync(string name)
+    {
+        var tenant = await _tenantRepository.GetQueryable()
+            .IgnoreQueryFilters()
+            .FirstOrDefaultAsync(t => t.TenancyName == name && !t.IsDeleted && t.IsActive);
+
+        if (tenant == null)
+            return null;
+
+        return _mapper.Map<TenantDto>(tenant);
     }
 }

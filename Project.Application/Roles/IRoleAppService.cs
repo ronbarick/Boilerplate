@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Project.Application.Common.Dtos;
 using Project.Application.Roles.Dtos;
 using Project.Application.Services;
-using Project.Core.Interfaces;
+using Project.Domain.Interfaces;
 
 namespace Project.Application.Roles;
 

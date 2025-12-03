@@ -1,8 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using Project.Core.Entities.SaaS;
-using Project.Core.Enums;
-using Project.Core.Interfaces;
+using Project.Domain.Entities.SaaS;
+
+using Project.Domain.Interfaces;
 
 namespace Project.Application.BackgroundJobs.SaaS;
 
