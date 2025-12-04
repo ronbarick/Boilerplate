@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using Project.Core.Entities.Base;
-using Project.Core.Interfaces;
+using Project.Domain.Entities.Base;
+using Project.Domain.Interfaces;
 using Project.Infrastructure.Data;
 
 namespace Project.Infrastructure.Repositories;

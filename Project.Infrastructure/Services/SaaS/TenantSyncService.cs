@@ -1,10 +1,10 @@
 using System;
 using System.Threading.Tasks;
-using Project.Core.Entities;
-using Project.Core.Entities.SaaS;
-using Project.Core.Interfaces;
-using Project.Core.Interfaces.DependencyInjection;
-using Project.Core.Services;
+using Project.Domain.Entities;
+using Project.Domain.Entities.SaaS;
+using Project.Domain.Interfaces;
+using Project.Domain.Interfaces.DependencyInjection;
+using Project.Domain.Services;
 
 namespace Project.Infrastructure.Services.SaaS;
 
@@ -26,12 +26,12 @@ public class TenantSyncService : DomainService, ITenantSyncService, ITransientDe
         // tenant.EditionId = subscription.PlanId; // Incompatible types (Guid vs long)
         tenant.EditionName = subscription.Plan?.Name; 
         
-        if (subscription.Status == Core.Enums.SubscriptionStatus.Trial)
+        if (subscription.Status == Project.Domain.Shared.Enums.SubscriptionStatus.Trial)
         {
             tenant.IsInTrialPeriod = true;
             tenant.SubscriptionEndDate = subscription.TrialEndDate;
         }
-        else if (subscription.Status == Core.Enums.SubscriptionStatus.Active)
+        else if (subscription.Status == Project.Domain.Shared.Enums.SubscriptionStatus.Active)
         {
             tenant.IsInTrialPeriod = false;
             tenant.SubscriptionEndDate = subscription.EndDate;

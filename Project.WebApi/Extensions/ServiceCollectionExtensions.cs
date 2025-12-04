@@ -12,17 +12,17 @@ using Microsoft.OpenApi.Models;
 using Project.Application.Mappings;
 using Project.Application.Services;
 using Project.Application.Validators;
-using Project.Core.Emailing;
-using Project.Core.Interfaces;
-using Project.Core.Interfaces.Common;
-using Project.Core.Interfaces.Notifications;
-using Project.Core.Interfaces.Reporting;
-using Project.Core.BackgroundJobs;
-using Project.Core.Localization;
-using Project.Core.Notifications;
-using Project.Infrastructure.BackgroundJobs;
+using Project.Emailing;
+using Project.Domain.Interfaces;
+using Project.Domain.Interfaces.Common;
+using Project.Domain.Interfaces.Notifications;
+using Project.Domain.Interfaces.Reporting;
+using Project.BackgroundJobs;
+using Project.Domain.Localization;
+using Project.Domain.Notifications;
+using Project.BackgroundJobs;
 using Project.Infrastructure.Data;
-using Project.Infrastructure.Emailing;
+using Project.Emailing;
 using Project.Infrastructure.Localization;
 using Project.Infrastructure.Repositories;
 using Project.Infrastructure.Services;
@@ -143,6 +143,10 @@ public static class ServiceCollectionExtensions
         // Background Job System (Hangfire-based)
         services.AddScoped<IBackgroundJobManager, HangfireBackgroundJobManager>();
         services.AddScoped<IRecurringJobManager, HangfireRecurringJobManager>();
+
+        // Caching System
+        services.AddScoped<Project.Caching.IDistributedCacheService, Project.Caching.DistributedCacheService>();
+        services.AddScoped<Project.Caching.ICacheInvalidationService, Project.Caching.CacheInvalidationService>();
 
         // Localization System
         services.AddLocalization();

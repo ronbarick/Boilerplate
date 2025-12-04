@@ -2,7 +2,7 @@ using System;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.SignalR;
-using Project.Core.Interfaces;
+using Project.Domain.Interfaces;
 
 namespace Project.WebApi.Hubs
 {

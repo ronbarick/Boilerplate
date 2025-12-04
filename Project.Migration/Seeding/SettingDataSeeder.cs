@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using Project.Core.Entities;
+using Project.Domain.Entities;
 using Project.Infrastructure.Data;
 
 namespace Project.Migration.Seeding;

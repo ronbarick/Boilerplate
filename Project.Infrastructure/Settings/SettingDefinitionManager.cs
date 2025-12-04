@@ -1,6 +1,6 @@
-using Project.Core.Interfaces;
-using Project.Core.Localization;
-using Project.Core.Settings;
+using Project.Domain.Interfaces;
+using Project.Domain.Localization;
+using Project.Domain.Settings;
 
 namespace Project.Infrastructure.Settings;
 

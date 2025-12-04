@@ -1,8 +1,8 @@
 using System;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
-using Project.Core.Entities;
-using Project.Core.Interfaces;
+using Project.Domain.Entities;
+using Project.Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace Project.WebApi.Middleware;
@@ -51,19 +51,6 @@ public class GlobalExceptionMiddleware
             catch
             {
                 // If logging fails, we don't want to hide the original exception
-                // Just suppress the logging error
-            }
-
-            // Handle exception response
-            context.Response.StatusCode = (int)System.Net.HttpStatusCode.InternalServerError;
-            
-            if (ex is Project.Core.Exceptions.UserFriendlyException)
-            {
-                context.Response.StatusCode = (int)System.Net.HttpStatusCode.Forbidden; // Or 400 Bad Request, usually 403 for business rules or 400
-                // ABP uses 403 for UserFriendlyException usually, or 400. Let's use 400 for general validation/business errors if not specified.
-                // But UserFriendlyException is often 403. Let's stick to 403 or 400. 
-                // Let's use 403 Forbidden as it's "User Friendly" meaning business rule violation.
-                // Actually, often it's 403.
                 context.Response.StatusCode = 403;
             }
 

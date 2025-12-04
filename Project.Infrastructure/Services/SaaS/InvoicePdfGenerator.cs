@@ -1,7 +1,7 @@
-using Project.Core.Interfaces;
-using Project.Core.Interfaces.DependencyInjection;
-using Project.Core.Services;
-using Project.Core.Entities.SaaS;
+using Project.Domain.Interfaces;
+using Project.Domain.Interfaces.DependencyInjection;
+using Project.Domain.Services;
+using Project.Domain.Entities.SaaS;
 using QuestPDF.Fluent;
 using QuestPDF.Helpers;
 using QuestPDF.Infrastructure;

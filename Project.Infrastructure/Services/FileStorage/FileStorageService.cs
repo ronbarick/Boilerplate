@@ -2,9 +2,9 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
-using Project.Core.Dtos.FileStorage;
-using Project.Core.Entities;
-using Project.Core.Interfaces;
+using Project.Domain.Dtos.FileStorage;
+using Project.Domain.Entities;
+using Project.Domain.Interfaces;
 
 namespace Project.Infrastructure.Services.FileStorage;
 

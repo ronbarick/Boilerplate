@@ -2,7 +2,7 @@ using Azure.Storage.Blobs;
 using Azure.Storage.Blobs.Models;
 using Azure.Storage.Sas;
 using Microsoft.Extensions.Configuration;
-using Project.Core.Interfaces;
+using Project.Domain.Interfaces;
 
 namespace Project.Infrastructure.Services.FileStorage;
 

@@ -1,6 +1,6 @@
 using System;
 using Microsoft.AspNetCore.Http;
-using Project.Core.Interfaces;
+using Project.Domain.Interfaces;
 
 namespace Project.WebApi.Services;
 
@@ -31,4 +31,24 @@ public class CurrentTenant : ICurrentTenant
     }
 
     public bool IsAvailable => Id.HasValue;
+
+    public IDisposable Change(Guid? tenantId, string? name = null)
+    {
+        return new DisposeAction(() => { });
+    }
+
+    private class DisposeAction : IDisposable
+    {
+        private readonly Action _action;
+
+        public DisposeAction(Action action)
+        {
+            _action = action;
+        }
+
+        public void Dispose()
+        {
+            _action();
+        }
+    }
 }

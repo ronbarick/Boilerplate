@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using Project.Core.Constants;
-using Project.Core.Entities;
+using Project.Domain.Shared.Constants;
+using Project.Domain.Entities;
 using Project.Infrastructure.Data;
 
 namespace Project.Infrastructure.Data.Seeding;

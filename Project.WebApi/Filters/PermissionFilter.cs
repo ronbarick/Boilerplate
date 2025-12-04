@@ -1,7 +1,7 @@
 using System;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
-using Project.Core.Interfaces;
+using Project.Domain.Interfaces;
 
 namespace Project.WebApi.Filters;
 

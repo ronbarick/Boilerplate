@@ -1,8 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
-using Project.Core.Interfaces;
+using Project.Domain.Interfaces;
 using Project.Infrastructure.Data;
+using Project.Domain.Shared.Interfaces;
 
 namespace Project.Migration;
 
@@ -48,6 +49,16 @@ public class AppDbContextFactory : IDesignTimeDbContextFactory<AppDbContext>
         public Guid? Id => null;
         public string? Name => null;
         public bool IsAvailable => false;
+
+        public IDisposable Change(Guid? tenantId, string? name = null)
+        {
+            return new DummyDisposable();
+        }
+
+        private class DummyDisposable : IDisposable
+        {
+            public void Dispose() { }
+        }
     }
 
     /// <summary>

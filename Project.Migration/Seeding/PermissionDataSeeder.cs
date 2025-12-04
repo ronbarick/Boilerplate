@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using Project.Core.Authorization;
-using Project.Core.Entities;
-using Project.Infrastructure.Authorization;
+using Project.Domain.Authorization;
+using Project.Domain.Entities;
+using Project.Domain.Authorization;
 using Project.Infrastructure.Data;
 
 namespace Project.Migration.Seeding;

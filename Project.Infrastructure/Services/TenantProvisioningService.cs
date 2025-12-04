@@ -3,8 +3,8 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Project.Core.Entities;
-using Project.Core.Interfaces;
+using Project.Domain.Entities;
+using Project.Domain.Interfaces;
 using Project.Infrastructure.Data;
 
 namespace Project.Infrastructure.Services
@@ -153,6 +153,26 @@ namespace Project.Infrastructure.Services
         {
             Id = id;
             Name = name;
+        }
+
+        public IDisposable Change(Guid? tenantId, string? name = null)
+        {
+            return new DisposeAction(() => { });
+        }
+
+        private class DisposeAction : IDisposable
+        {
+            private readonly Action _action;
+
+            public DisposeAction(Action action)
+            {
+                _action = action;
+            }
+
+            public void Dispose()
+            {
+                _action();
+            }
         }
     }
 

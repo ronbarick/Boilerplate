@@ -2,8 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Project.Core.Entities.Notifications;
-using Project.Core.Interfaces.Notifications;
+using Project.Domain.Entities.Notifications;
+using Project.Domain.Interfaces.Notifications;
 using System.Text.Json;
 
 namespace Project.Infrastructure.Services.Notifications

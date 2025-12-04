@@ -24,6 +24,10 @@
     <ProjectReference Include="..\Project.Application\Project.Application.csproj" />
     <ProjectReference Include="..\Project.Infrastructure\Project.Infrastructure.csproj" />
     <ProjectReference Include="..\Project.Migration\Project.Migration.csproj" />
+    <ProjectReference Include="..\Project.Domain\Project.Domain.csproj" />
+    <ProjectReference Include="..\Project.Emailing\Project.Emailing.csproj" />
+    <ProjectReference Include="..\Project.BackgroundJobs\Project.BackgroundJobs.csproj" />
+    <ProjectReference Include="..\Project.Caching\Project.Caching.csproj" />
   </ItemGroup>
 
 </Project>

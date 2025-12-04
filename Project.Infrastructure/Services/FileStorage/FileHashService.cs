@@ -1,6 +1,6 @@
 using System.Security.Cryptography;
 using System.Text;
-using Project.Core.Interfaces;
+using Project.Domain.Interfaces;
 
 namespace Project.Infrastructure.Services.FileStorage;
 

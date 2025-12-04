@@ -2,7 +2,7 @@ using Amazon;
 using Amazon.S3;
 using Amazon.S3.Model;
 using Microsoft.Extensions.Configuration;
-using Project.Core.Interfaces;
+using Project.Domain.Interfaces;
 
 namespace Project.Infrastructure.Services.FileStorage;
 

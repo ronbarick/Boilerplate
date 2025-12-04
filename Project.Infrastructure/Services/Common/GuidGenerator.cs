@@ -1,5 +1,5 @@
-using Project.Core.Interfaces.Common;
-using Project.Core.Interfaces.DependencyInjection;
+using Project.Domain.Interfaces.Common;
+using Project.Domain.Interfaces.DependencyInjection;
 
 namespace Project.Infrastructure.Services.Common;
 

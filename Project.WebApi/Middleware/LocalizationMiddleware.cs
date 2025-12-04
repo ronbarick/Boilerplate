@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Localization;
-using Project.Core.Localization;
+using Project.Domain.Localization;
 using System.Globalization;
 
 namespace Project.WebApi.Middleware;

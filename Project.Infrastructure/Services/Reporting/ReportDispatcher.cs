@@ -1,5 +1,5 @@
-using Project.Core.Dtos.Reporting;
-using Project.Core.Interfaces.Reporting;
+using Project.Domain.Dtos.Reporting;
+using Project.Domain.Interfaces.Reporting;
 
 namespace Project.Infrastructure.Services.Reporting;
 

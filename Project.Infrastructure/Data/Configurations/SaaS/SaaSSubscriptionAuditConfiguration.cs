@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Project.Core.Entities.SaaS;
+using Project.Domain.Entities.SaaS;
 
 namespace Project.Infrastructure.Data.Configurations.SaaS;
 

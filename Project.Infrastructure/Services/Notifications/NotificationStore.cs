@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Project.Core.Entities.Notifications;
-using Project.Core.Interfaces.Notifications;
+using Project.Domain.Entities.Notifications;
+using Project.Domain.Interfaces.Notifications;
 using Project.Infrastructure.Data;
 
 namespace Project.Infrastructure.Services.Notifications

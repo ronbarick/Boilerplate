@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ActionConstraints;
 using Microsoft.AspNetCore.Mvc.ApplicationModels;
-using Project.Core.Interfaces;
+using Project.Domain.Interfaces;
 using Project.WebApi.Filters;
 
 namespace Project.WebApi.Infrastructure;
@@ -50,8 +50,8 @@ public class ApplicationServiceToControllerModelConvention : IApplicationModelCo
         foreach (var action in controller.Actions)
         {
             // Check for [RemoteService(false)]
-            var remoteServiceAttr = action.ActionMethod.GetCustomAttributes(typeof(Project.Core.Attributes.RemoteServiceAttribute), true)
-                .FirstOrDefault() as Project.Core.Attributes.RemoteServiceAttribute;
+            var remoteServiceAttr = action.ActionMethod.GetCustomAttributes(typeof(Project.Domain.Attributes.RemoteServiceAttribute), true)
+                .FirstOrDefault() as Project.Domain.Attributes.RemoteServiceAttribute;
 
             if (remoteServiceAttr != null && !remoteServiceAttr.IsEnabled)
             {
@@ -76,15 +76,15 @@ public class ApplicationServiceToControllerModelConvention : IApplicationModelCo
     {
         // Check for RequiresPermissionAttribute on the action method
         var permissionAttributes = action.ActionMethod
-            .GetCustomAttributes(typeof(Project.Core.Attributes.RequiresPermissionAttribute), inherit: true)
-            .Cast<Project.Core.Attributes.RequiresPermissionAttribute>()
+            .GetCustomAttributes(typeof(Project.Domain.Attributes.RequiresPermissionAttribute), inherit: true)
+            .Cast<Project.Domain.Attributes.RequiresPermissionAttribute>()
             .ToList();
 
         // Also check for RequiresPermissionAttribute on the controller class
         permissionAttributes.AddRange(
             action.Controller.ControllerType
-                .GetCustomAttributes(typeof(Project.Core.Attributes.RequiresPermissionAttribute), inherit: true)
-                .Cast<Project.Core.Attributes.RequiresPermissionAttribute>()
+                .GetCustomAttributes(typeof(Project.Domain.Attributes.RequiresPermissionAttribute), inherit: true)
+                .Cast<Project.Domain.Attributes.RequiresPermissionAttribute>()
         );
 
         // Apply a filter for each permission attribute

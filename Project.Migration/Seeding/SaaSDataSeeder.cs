@@ -1,8 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using Project.Core.Entities.SaaS;
-using Project.Core.Enums;
-using Project.Core.Interfaces.Common;
+using Project.Domain.Entities.SaaS;
+using Project.Domain.Shared.Enums;
+using Project.Domain.Interfaces.Common;
 using Project.Infrastructure.Data;
 
 namespace Project.Migration.Seeding;

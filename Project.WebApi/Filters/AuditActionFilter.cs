@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc.Controllers;
 using Microsoft.AspNetCore.Mvc.Filters;
-using Project.Core.Interfaces;
+using Project.Domain.Interfaces;
 
 namespace Project.WebApi.Filters;
 

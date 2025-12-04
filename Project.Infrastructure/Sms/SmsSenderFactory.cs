@@ -1,8 +1,8 @@
 using System;
 using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
-using Project.Core.Interfaces;
-using Project.Core.Sms;
+using Project.Domain.Interfaces;
+using Project.Domain.Sms;
 
 namespace Project.Infrastructure.Sms;
 

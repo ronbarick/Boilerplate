@@ -2,10 +2,10 @@ using System;
 using System.Threading.Tasks;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
-using Project.Core.Entities.SaaS;
-using Project.Core.Interfaces;
-using Project.Core.Interfaces.DependencyInjection;
-using Project.Core.Services;
+using Project.Domain.Entities.SaaS;
+using Project.Domain.Interfaces;
+using Project.Domain.Interfaces.DependencyInjection;
+using Project.Domain.Services;
 
 namespace Project.Infrastructure.Services.SaaS;
 

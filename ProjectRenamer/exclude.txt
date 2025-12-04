@@ -1,0 +1,6 @@
+ProjectRenamer\bin
+ProjectRenamer\obj
+bin
+obj
+.vs
+.git

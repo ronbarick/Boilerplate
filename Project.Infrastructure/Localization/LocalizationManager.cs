@@ -1,6 +1,6 @@
 using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Logging;
-using Project.Core.Localization;
+using Project.Domain.Localization;
 using System.Text.Json;
 
 namespace Project.Infrastructure.Localization;

@@ -3,12 +3,72 @@
   "WorkspaceRootPath": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0F60BB70-18B9-41FC-9EA0-E8B57A226731}|Project.Application\\Project.Application.csproj|d:\\projects\\boilerplate\\boilerplate\\backend\\project.application\\students\\studentappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F60BB70-18B9-41FC-9EA0-E8B57A226731}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\students\\studentappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536FEBA8-2705-40A5-9B0E-35AC95EE41D8}|Project.Infrastructure\\Project.Infrastructure.csproj|d:\\projects\\boilerplate\\boilerplate\\backend\\project.infrastructure\\localization\\cultureprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536FEBA8-2705-40A5-9B0E-35AC95EE41D8}|Project.Infrastructure\\Project.Infrastructure.csproj|solutionrelative:project.infrastructure\\localization\\cultureprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536FEBA8-2705-40A5-9B0E-35AC95EE41D8}|Project.Infrastructure\\Project.Infrastructure.csproj|d:\\projects\\boilerplate\\boilerplate\\backend\\project.infrastructure\\localization\\jsonlocalizationprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536FEBA8-2705-40A5-9B0E-35AC95EE41D8}|Project.Infrastructure\\Project.Infrastructure.csproj|solutionrelative:project.infrastructure\\localization\\jsonlocalizationprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F60BB70-18B9-41FC-9EA0-E8B57A226731}|Project.Application\\Project.Application.csproj|d:\\projects\\boilerplate\\boilerplate\\backend\\project.application\\validators\\permissionvalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F60BB70-18B9-41FC-9EA0-E8B57A226731}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\validators\\permissionvalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536FEBA8-2705-40A5-9B0E-35AC95EE41D8}|Project.Infrastructure\\Project.Infrastructure.csproj|d:\\projects\\boilerplate\\boilerplate\\backend\\project.infrastructure\\services\\reporting\\generators\\csvreportgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536FEBA8-2705-40A5-9B0E-35AC95EE41D8}|Project.Infrastructure\\Project.Infrastructure.csproj|solutionrelative:project.infrastructure\\services\\reporting\\generators\\csvreportgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536FEBA8-2705-40A5-9B0E-35AC95EE41D8}|Project.Infrastructure\\Project.Infrastructure.csproj|d:\\projects\\boilerplate\\boilerplate\\backend\\project.infrastructure\\data\\configurations\\saas\\saasaddonconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536FEBA8-2705-40A5-9B0E-35AC95EE41D8}|Project.Infrastructure\\Project.Infrastructure.csproj|solutionrelative:project.infrastructure\\data\\configurations\\saas\\saasaddonconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536FEBA8-2705-40A5-9B0E-35AC95EE41D8}|Project.Infrastructure\\Project.Infrastructure.csproj|d:\\projects\\boilerplate\\boilerplate\\backend\\project.infrastructure\\services\\saas\\stripeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536FEBA8-2705-40A5-9B0E-35AC95EE41D8}|Project.Infrastructure\\Project.Infrastructure.csproj|solutionrelative:project.infrastructure\\services\\saas\\stripeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71EEDAB2-948F-42A2-BBA2-772764C86B6E}|Project.Domain\\Project.Domain.csproj|d:\\projects\\boilerplate\\boilerplate\\backend\\project.domain\\interfaces\\icurrentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71EEDAB2-948F-42A2-BBA2-772764C86B6E}|Project.Domain\\Project.Domain.csproj|solutionrelative:project.domain\\interfaces\\icurrentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F60BB70-18B9-41FC-9EA0-E8B57A226731}|Project.Application\\Project.Application.csproj|d:\\projects\\boilerplate\\boilerplate\\backend\\project.application\\appconfiguration\\applicationconfigurationappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F60BB70-18B9-41FC-9EA0-E8B57A226731}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\appconfiguration\\applicationconfigurationappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71EEDAB2-948F-42A2-BBA2-772764C86B6E}|Project.Domain\\Project.Domain.csproj|d:\\projects\\boilerplate\\boilerplate\\backend\\project.domain\\interfaces\\ifeaturechecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71EEDAB2-948F-42A2-BBA2-772764C86B6E}|Project.Domain\\Project.Domain.csproj|solutionrelative:project.domain\\interfaces\\ifeaturechecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0071DDDD-1566-4E1F-AEDA-B9B0314A02B9}|Project.BackgroundJobs\\Project.BackgroundJobs.csproj|d:\\projects\\boilerplate\\boilerplate\\backend\\project.backgroundjobs\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0071DDDD-1566-4E1F-AEDA-B9B0314A02B9}|Project.BackgroundJobs\\Project.BackgroundJobs.csproj|solutionrelative:project.backgroundjobs\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0071DDDD-1566-4E1F-AEDA-B9B0314A02B9}|Project.BackgroundJobs\\Project.BackgroundJobs.csproj|d:\\projects\\boilerplate\\boilerplate\\backend\\project.backgroundjobs\\ibackgroundjobmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0071DDDD-1566-4E1F-AEDA-B9B0314A02B9}|Project.BackgroundJobs\\Project.BackgroundJobs.csproj|solutionrelative:project.backgroundjobs\\ibackgroundjobmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0071DDDD-1566-4E1F-AEDA-B9B0314A02B9}|Project.BackgroundJobs\\Project.BackgroundJobs.csproj|d:\\projects\\boilerplate\\boilerplate\\backend\\project.backgroundjobs\\irecurringjobmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0071DDDD-1566-4E1F-AEDA-B9B0314A02B9}|Project.BackgroundJobs\\Project.BackgroundJobs.csproj|solutionrelative:project.backgroundjobs\\irecurringjobmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DC36155C-E188-400B-AC51-F2C352370C09}|Project.WebApi\\Project.WebApi.csproj|d:\\projects\\boilerplate\\boilerplate\\backend\\project.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{DC36155C-E188-400B-AC51-F2C352370C09}|Project.WebApi\\Project.WebApi.csproj|solutionrelative:project.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8480A7F-1B66-475C-B77C-800FDAC40C65}|Project.Migration\\Project.Migration.csproj|d:\\projects\\boilerplate\\boilerplate\\backend\\project.migration\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F8480A7F-1B66-475C-B77C-800FDAC40C65}|Project.Migration\\Project.Migration.csproj|solutionrelative:project.migration\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{DC36155C-E188-400B-AC51-F2C352370C09}|Project.WebApi\\Project.WebApi.csproj|d:\\projects\\boilerplate\\boilerplate\\backend\\project.webapi\\filters\\unitofworkactionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC36155C-E188-400B-AC51-F2C352370C09}|Project.WebApi\\Project.WebApi.csproj|solutionrelative:project.webapi\\filters\\unitofworkactionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC36155C-E188-400B-AC51-F2C352370C09}|Project.WebApi\\Project.WebApi.csproj|d:\\projects\\boilerplate\\boilerplate\\backend\\project.webapi\\middleware\\unitofworkmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC36155C-E188-400B-AC51-F2C352370C09}|Project.WebApi\\Project.WebApi.csproj|solutionrelative:project.webapi\\middleware\\unitofworkmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536FEBA8-2705-40A5-9B0E-35AC95EE41D8}|Project.Infrastructure\\Project.Infrastructure.csproj|d:\\projects\\boilerplate\\boilerplate\\backend\\project.infrastructure\\security\\totphelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536FEBA8-2705-40A5-9B0E-35AC95EE41D8}|Project.Infrastructure\\Project.Infrastructure.csproj|solutionrelative:project.infrastructure\\security\\totphelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DC36155C-E188-400B-AC51-F2C352370C09}|Project.WebApi\\Project.WebApi.csproj|d:\\projects\\boilerplate\\boilerplate\\backend\\project.webapi\\emailtemplates\\passwordreset.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -43,28 +103,32 @@
       "RelativeMoniker": "D:0:0:{DC36155C-E188-400B-AC51-F2C352370C09}|Project.WebApi\\Project.WebApi.csproj|solutionrelative:project.webapi\\filters\\auditactionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8480A7F-1B66-475C-B77C-800FDAC40C65}|Project.Migration\\Project.Migration.csproj|d:\\projects\\boilerplate\\boilerplate\\backend\\project.migration\\seeding\\hostdataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8480A7F-1B66-475C-B77C-800FDAC40C65}|Project.Migration\\Project.Migration.csproj|solutionrelative:project.migration\\seeding\\hostdataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8480A7F-1B66-475C-B77C-800FDAC40C65}|Project.Migration\\Project.Migration.csproj|d:\\projects\\boilerplate\\boilerplate\\backend\\project.migration\\seeding\\permissiondataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8480A7F-1B66-475C-B77C-800FDAC40C65}|Project.Migration\\Project.Migration.csproj|solutionrelative:project.migration\\seeding\\permissiondataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8480A7F-1B66-475C-B77C-800FDAC40C65}|Project.Migration\\Project.Migration.csproj|d:\\projects\\boilerplate\\boilerplate\\backend\\project.migration\\seeding\\saasdataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8480A7F-1B66-475C-B77C-800FDAC40C65}|Project.Migration\\Project.Migration.csproj|solutionrelative:project.migration\\seeding\\saasdataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8480A7F-1B66-475C-B77C-800FDAC40C65}|Project.Migration\\Project.Migration.csproj|d:\\projects\\boilerplate\\boilerplate\\backend\\project.migration\\seeding\\settingdataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8480A7F-1B66-475C-B77C-800FDAC40C65}|Project.Migration\\Project.Migration.csproj|solutionrelative:project.migration\\seeding\\settingdataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0F60BB70-18B9-41FC-9EA0-E8B57A226731}|Project.Application\\Project.Application.csproj|d:\\projects\\boilerplate\\boilerplate\\backend\\project.application\\users\\userappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F60BB70-18B9-41FC-9EA0-E8B57A226731}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\users\\userappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F60BB70-18B9-41FC-9EA0-E8B57A226731}|Project.Application\\Project.Application.csproj|d:\\projects\\boilerplate\\boilerplate\\backend\\project.application\\students\\studentappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F60BB70-18B9-41FC-9EA0-E8B57A226731}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\students\\studentappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Core\\UnitOfWork\\IUnitOfWork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project.Core\\UnitOfWork\\IUnitOfWork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Core\\UnitOfWork\\IUnitOfWorkManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project.Core\\UnitOfWork\\IUnitOfWorkManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Core\\UnitOfWork\\UnitOfWorkAttribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project.Core\\UnitOfWork\\UnitOfWorkAttribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Core\\Attributes\\RequiresPermissionAttribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project.Core\\Attributes\\RequiresPermissionAttribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Core\\Attributes\\RemoteServiceAttribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project.Core\\Attributes\\RemoteServiceAttribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Core\\DataFilters\\IDataFilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project.Core\\DataFilters\\IDataFilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,7 +138,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 31,
           "Children": [
             {
               "$type": "Bookmark",
@@ -97,38 +161,214 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Migration\\appsettings.json",
-              "RelativeDocumentMoniker": "Project.Migration\\appsettings.json",
-              "ToolTip": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Migration\\appsettings.json",
-              "RelativeToolTip": "Project.Migration\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-28T18:05:08.911Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.WebApi\\appsettings.json",
-              "RelativeDocumentMoniker": "Project.WebApi\\appsettings.json",
-              "ToolTip": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.WebApi\\appsettings.json",
-              "RelativeToolTip": "Project.WebApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-28T18:04:51.7Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "JsonLocalizationProvider.cs",
+              "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Infrastructure\\Localization\\JsonLocalizationProvider.cs",
+              "RelativeDocumentMoniker": "Project.Infrastructure\\Localization\\JsonLocalizationProvider.cs",
+              "ToolTip": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Infrastructure\\Localization\\JsonLocalizationProvider.cs",
+              "RelativeToolTip": "Project.Infrastructure\\Localization\\JsonLocalizationProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T03:51:00.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CultureProvider.cs",
+              "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Infrastructure\\Localization\\CultureProvider.cs",
+              "RelativeDocumentMoniker": "Project.Infrastructure\\Localization\\CultureProvider.cs",
+              "ToolTip": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Infrastructure\\Localization\\CultureProvider.cs",
+              "RelativeToolTip": "Project.Infrastructure\\Localization\\CultureProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T03:51:00.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PermissionValidators.cs",
+              "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Application\\Validators\\PermissionValidators.cs",
+              "RelativeDocumentMoniker": "Project.Application\\Validators\\PermissionValidators.cs",
+              "ToolTip": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Application\\Validators\\PermissionValidators.cs",
+              "RelativeToolTip": "Project.Application\\Validators\\PermissionValidators.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T03:50:17.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CsvReportGenerator.cs",
+              "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Infrastructure\\Services\\Reporting\\Generators\\CsvReportGenerator.cs",
+              "RelativeDocumentMoniker": "Project.Infrastructure\\Services\\Reporting\\Generators\\CsvReportGenerator.cs",
+              "ToolTip": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Infrastructure\\Services\\Reporting\\Generators\\CsvReportGenerator.cs",
+              "RelativeToolTip": "Project.Infrastructure\\Services\\Reporting\\Generators\\CsvReportGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T03:45:38.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SaaSAddonConfiguration.cs",
+              "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Infrastructure\\Data\\Configurations\\SaaS\\SaaSAddonConfiguration.cs",
+              "RelativeDocumentMoniker": "Project.Infrastructure\\Data\\Configurations\\SaaS\\SaaSAddonConfiguration.cs",
+              "ToolTip": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Infrastructure\\Data\\Configurations\\SaaS\\SaaSAddonConfiguration.cs",
+              "RelativeToolTip": "Project.Infrastructure\\Data\\Configurations\\SaaS\\SaaSAddonConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T03:45:13.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StripeService.cs",
+              "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Infrastructure\\Services\\SaaS\\StripeService.cs",
+              "RelativeDocumentMoniker": "Project.Infrastructure\\Services\\SaaS\\StripeService.cs",
+              "ToolTip": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Infrastructure\\Services\\SaaS\\StripeService.cs",
+              "RelativeToolTip": "Project.Infrastructure\\Services\\SaaS\\StripeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T03:44:49.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ICurrentUser.cs",
+              "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Domain\\Interfaces\\ICurrentUser.cs",
+              "RelativeDocumentMoniker": "Project.Domain\\Interfaces\\ICurrentUser.cs",
+              "ToolTip": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Domain\\Interfaces\\ICurrentUser.cs",
+              "RelativeToolTip": "Project.Domain\\Interfaces\\ICurrentUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T03:44:12.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationConfigurationAppService.cs",
+              "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Application\\AppConfiguration\\ApplicationConfigurationAppService.cs",
+              "RelativeDocumentMoniker": "Project.Application\\AppConfiguration\\ApplicationConfigurationAppService.cs",
+              "ToolTip": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Application\\AppConfiguration\\ApplicationConfigurationAppService.cs",
+              "RelativeToolTip": "Project.Application\\AppConfiguration\\ApplicationConfigurationAppService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwCAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T03:44:06.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IFeatureChecker.cs",
+              "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Domain\\Interfaces\\IFeatureChecker.cs",
+              "RelativeDocumentMoniker": "Project.Domain\\Interfaces\\IFeatureChecker.cs",
+              "ToolTip": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Domain\\Interfaces\\IFeatureChecker.cs",
+              "RelativeToolTip": "Project.Domain\\Interfaces\\IFeatureChecker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T03:43:35.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.BackgroundJobs\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "Project.BackgroundJobs\\GlobalUsings.cs",
+              "ToolTip": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.BackgroundJobs\\GlobalUsings.cs",
+              "RelativeToolTip": "Project.BackgroundJobs\\GlobalUsings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T03:36:09.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IRecurringJobManager.cs",
+              "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.BackgroundJobs\\IRecurringJobManager.cs",
+              "RelativeDocumentMoniker": "Project.BackgroundJobs\\IRecurringJobManager.cs",
+              "ToolTip": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.BackgroundJobs\\IRecurringJobManager.cs",
+              "RelativeToolTip": "Project.BackgroundJobs\\IRecurringJobManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T03:36:02.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IBackgroundJobManager.cs",
+              "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.BackgroundJobs\\IBackgroundJobManager.cs",
+              "RelativeDocumentMoniker": "Project.BackgroundJobs\\IBackgroundJobManager.cs",
+              "ToolTip": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.BackgroundJobs\\IBackgroundJobManager.cs",
+              "RelativeToolTip": "Project.BackgroundJobs\\IBackgroundJobManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T03:35:58.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UnitOfWorkMiddleware.cs",
+              "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.WebApi\\Middleware\\UnitOfWorkMiddleware.cs",
+              "RelativeDocumentMoniker": "Project.WebApi\\Middleware\\UnitOfWorkMiddleware.cs",
+              "ToolTip": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.WebApi\\Middleware\\UnitOfWorkMiddleware.cs",
+              "RelativeToolTip": "Project.WebApi\\Middleware\\UnitOfWorkMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T17:31:11.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UnitOfWorkActionFilter.cs",
+              "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.WebApi\\Filters\\UnitOfWorkActionFilter.cs",
+              "RelativeDocumentMoniker": "Project.WebApi\\Filters\\UnitOfWorkActionFilter.cs",
+              "ToolTip": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.WebApi\\Filters\\UnitOfWorkActionFilter.cs",
+              "RelativeToolTip": "Project.WebApi\\Filters\\UnitOfWorkActionFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T17:31:02.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TotpHelper.cs",
+              "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Infrastructure\\Security\\TotpHelper.cs",
+              "RelativeDocumentMoniker": "Project.Infrastructure\\Security\\TotpHelper.cs",
+              "ToolTip": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Infrastructure\\Security\\TotpHelper.cs",
+              "RelativeToolTip": "Project.Infrastructure\\Security\\TotpHelper.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwBYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T17:24:36.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "Project.WebApi\\appsettings.json",
+              "ToolTip": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.WebApi\\appsettings.json",
+              "RelativeToolTip": "Project.WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-28T18:04:51.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "PasswordReset.html",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.WebApi\\EmailTemplates\\PasswordReset.html",
               "RelativeDocumentMoniker": "Project.WebApi\\EmailTemplates\\PasswordReset.html",
@@ -136,12 +376,11 @@
               "RelativeToolTip": "Project.WebApi\\EmailTemplates\\PasswordReset.html",
               "ViewState": "AgIAADMAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-11-28T17:35:58.761Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T17:35:58.761Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 19,
               "Title": "fr.json",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.WebApi\\Localization\\Project\\fr.json",
               "RelativeDocumentMoniker": "Project.WebApi\\Localization\\Project\\fr.json",
@@ -149,12 +388,11 @@
               "RelativeToolTip": "Project.WebApi\\Localization\\Project\\fr.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-28T17:34:59.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T17:34:59.048Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 18,
               "Title": "en.json",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.WebApi\\Localization\\Project\\en.json",
               "RelativeDocumentMoniker": "Project.WebApi\\Localization\\Project\\en.json",
@@ -162,12 +400,11 @@
               "RelativeToolTip": "Project.WebApi\\Localization\\Project\\en.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-28T17:34:56.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T17:34:56.719Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 20,
               "Title": "PermissionFilter.cs",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.WebApi\\Filters\\PermissionFilter.cs",
               "RelativeDocumentMoniker": "Project.WebApi\\Filters\\PermissionFilter.cs",
@@ -180,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 21,
               "Title": "PermissionAuthorizationFilter.cs",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.WebApi\\Filters\\PermissionAuthorizationFilter.cs",
               "RelativeDocumentMoniker": "Project.WebApi\\Filters\\PermissionAuthorizationFilter.cs",
@@ -188,12 +425,11 @@
               "RelativeToolTip": "Project.WebApi\\Filters\\PermissionAuthorizationFilter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T17:34:42.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T17:34:42.598Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 22,
               "Title": "LocalizationValidationFilter.cs",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.WebApi\\Filters\\LocalizationValidationFilter.cs",
               "RelativeDocumentMoniker": "Project.WebApi\\Filters\\LocalizationValidationFilter.cs",
@@ -201,12 +437,11 @@
               "RelativeToolTip": "Project.WebApi\\Filters\\LocalizationValidationFilter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T17:34:41.871Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T17:34:41.871Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 23,
               "Title": "AutoValidateFilter.cs",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.WebApi\\Filters\\AutoValidateFilter.cs",
               "RelativeDocumentMoniker": "Project.WebApi\\Filters\\AutoValidateFilter.cs",
@@ -214,12 +449,11 @@
               "RelativeToolTip": "Project.WebApi\\Filters\\AutoValidateFilter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T17:34:40.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T17:34:40.663Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 24,
               "Title": "AuditActionFilter.cs",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.WebApi\\Filters\\AuditActionFilter.cs",
               "RelativeDocumentMoniker": "Project.WebApi\\Filters\\AuditActionFilter.cs",
@@ -227,64 +461,11 @@
               "RelativeToolTip": "Project.WebApi\\Filters\\AuditActionFilter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T17:34:39.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T17:34:39.353Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SettingDataSeeder.cs",
-              "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Migration\\Seeding\\SettingDataSeeder.cs",
-              "RelativeDocumentMoniker": "Project.Migration\\Seeding\\SettingDataSeeder.cs",
-              "ToolTip": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Migration\\Seeding\\SettingDataSeeder.cs",
-              "RelativeToolTip": "Project.Migration\\Seeding\\SettingDataSeeder.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAgwCQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T17:32:18.161Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SaaSDataSeeder.cs",
-              "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Migration\\Seeding\\SaaSDataSeeder.cs",
-              "RelativeDocumentMoniker": "Project.Migration\\Seeding\\SaaSDataSeeder.cs",
-              "ToolTip": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Migration\\Seeding\\SaaSDataSeeder.cs",
-              "RelativeToolTip": "Project.Migration\\Seeding\\SaaSDataSeeder.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAwwEMAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T17:32:16.544Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PermissionDataSeeder.cs",
-              "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Migration\\Seeding\\PermissionDataSeeder.cs",
-              "RelativeDocumentMoniker": "Project.Migration\\Seeding\\PermissionDataSeeder.cs",
-              "ToolTip": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Migration\\Seeding\\PermissionDataSeeder.cs",
-              "RelativeToolTip": "Project.Migration\\Seeding\\PermissionDataSeeder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T17:32:15.224Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "HostDataSeeder.cs",
-              "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Migration\\Seeding\\HostDataSeeder.cs",
-              "RelativeDocumentMoniker": "Project.Migration\\Seeding\\HostDataSeeder.cs",
-              "ToolTip": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Migration\\Seeding\\HostDataSeeder.cs",
-              "RelativeToolTip": "Project.Migration\\Seeding\\HostDataSeeder.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T17:32:13.283Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 25,
               "Title": "UserAppService.cs",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Application\\Users\\UserAppService.cs",
               "RelativeDocumentMoniker": "Project.Application\\Users\\UserAppService.cs",
@@ -292,21 +473,92 @@
               "RelativeToolTip": "Project.Application\\Users\\UserAppService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAABRwBMAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T17:29:03.304Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T17:29:03.304Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 0,
               "Title": "StudentAppService.cs",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Application\\Students\\StudentAppService.cs",
               "RelativeDocumentMoniker": "Project.Application\\Students\\StudentAppService.cs",
               "ToolTip": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Application\\Students\\StudentAppService.cs",
               "RelativeToolTip": "Project.Application\\Students\\StudentAppService.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAABRwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAApwEoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T17:28:44.809Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Core\\UnitOfWork\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Project.Core\\UnitOfWork\\IUnitOfWork.cs",
+              "ToolTip": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Core\\UnitOfWork\\IUnitOfWork.cs",
+              "RelativeToolTip": "Project.Core\\UnitOfWork\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T17:32:19.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IUnitOfWorkManager.cs",
+              "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Core\\UnitOfWork\\IUnitOfWorkManager.cs",
+              "RelativeDocumentMoniker": "Project.Core\\UnitOfWork\\IUnitOfWorkManager.cs",
+              "ToolTip": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Core\\UnitOfWork\\IUnitOfWorkManager.cs",
+              "RelativeToolTip": "Project.Core\\UnitOfWork\\IUnitOfWorkManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T17:32:16.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UnitOfWorkAttribute.cs",
+              "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Core\\UnitOfWork\\UnitOfWorkAttribute.cs",
+              "RelativeDocumentMoniker": "Project.Core\\UnitOfWork\\UnitOfWorkAttribute.cs",
+              "ToolTip": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Core\\UnitOfWork\\UnitOfWorkAttribute.cs",
+              "RelativeToolTip": "Project.Core\\UnitOfWork\\UnitOfWorkAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T17:32:12.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RequiresPermissionAttribute.cs",
+              "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Core\\Attributes\\RequiresPermissionAttribute.cs",
+              "RelativeDocumentMoniker": "Project.Core\\Attributes\\RequiresPermissionAttribute.cs",
+              "ToolTip": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Core\\Attributes\\RequiresPermissionAttribute.cs",
+              "RelativeToolTip": "Project.Core\\Attributes\\RequiresPermissionAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T17:29:14.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "RemoteServiceAttribute.cs",
+              "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Core\\Attributes\\RemoteServiceAttribute.cs",
+              "RelativeDocumentMoniker": "Project.Core\\Attributes\\RemoteServiceAttribute.cs",
+              "ToolTip": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Core\\Attributes\\RemoteServiceAttribute.cs",
+              "RelativeToolTip": "Project.Core\\Attributes\\RemoteServiceAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T17:29:11.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IDataFilter.cs",
+              "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Core\\DataFilters\\IDataFilter.cs",
+              "RelativeDocumentMoniker": "Project.Core\\DataFilters\\IDataFilter.cs",
+              "ToolTip": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Core\\DataFilters\\IDataFilter.cs",
+              "RelativeToolTip": "Project.Core\\DataFilters\\IDataFilter.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T17:26:14.159Z"
             }
           ]
         }

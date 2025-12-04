@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
-using Project.Core.Localization;
+using Project.Domain.Localization;
 
 namespace Project.WebApi.Filters;
 

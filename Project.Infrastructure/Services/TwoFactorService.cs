@@ -4,9 +4,9 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Project.Core.Constants;
-using Project.Core.Entities;
-using Project.Core.Interfaces;
+using Project.Domain.Shared.Constants;
+using Project.Domain.Entities;
+using Project.Domain.Interfaces;
 using Project.Infrastructure.Data;
 
 namespace Project.Infrastructure.Services;

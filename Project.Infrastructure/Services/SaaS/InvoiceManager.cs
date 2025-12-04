@@ -1,11 +1,11 @@
 using System;
 using System.Threading.Tasks;
-using Project.Core.Entities.SaaS;
-using Project.Core.Enums;
-using Project.Core.Interfaces;
-using Project.Core.Interfaces.Common;
-using Project.Core.Interfaces.DependencyInjection;
-using Project.Core.Services;
+using Project.Domain.Entities.SaaS;
+using Project.Domain.Shared.Enums;
+using Project.Domain.Interfaces;
+using Project.Domain.Interfaces.Common;
+using Project.Domain.Interfaces.DependencyInjection;
+using Project.Domain.Services;
 
 namespace Project.Infrastructure.Services.SaaS;
 

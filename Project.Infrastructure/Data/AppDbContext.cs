@@ -1,11 +1,11 @@
 using System;
 using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
-using Project.Core.Entities;
-using Project.Core.Entities.Base;
-using Project.Core.Entities.Notifications;
-using Project.Core.Entities.SaaS;
-using Project.Core.Interfaces;
+using Project.Domain.Entities;
+using Project.Domain.Entities.Base;
+using Project.Domain.Entities.Notifications;
+using Project.Domain.Entities.SaaS;
+using Project.Domain.Interfaces;
 
 namespace Project.Infrastructure.Data;
 

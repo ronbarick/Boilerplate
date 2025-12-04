@@ -9,11 +9,11 @@ namespace Project.WebApi.Endpoints;
 public class JobsController : ControllerBase
 {
     private readonly IBackgroundJobClient _backgroundJobClient;
-    private readonly IRecurringJobManager _recurringJobManager;
+    private readonly Hangfire.IRecurringJobManager _recurringJobManager;
 
     public JobsController(
         IBackgroundJobClient backgroundJobClient,
-        IRecurringJobManager recurringJobManager)
+        Hangfire.IRecurringJobManager recurringJobManager)
     {
         _backgroundJobClient = backgroundJobClient;
         _recurringJobManager = recurringJobManager;

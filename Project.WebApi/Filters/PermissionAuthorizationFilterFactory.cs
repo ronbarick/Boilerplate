@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc.Filters;
-using Project.Core.Attributes;
-using Project.Core.Interfaces;
+using Project.Domain.Attributes;
+using Project.Domain.Interfaces;
 
 namespace Project.WebApi.Filters;
 
@@ -10,9 +10,9 @@ namespace Project.WebApi.Filters;
 /// </summary>
 public class PermissionAuthorizationFilterFactory : IFilterFactory
 {
-    private readonly Project.Core.Attributes.RequiresPermissionAttribute _attribute;
+    private readonly Project.Domain.Attributes.RequiresPermissionAttribute _attribute;
 
-    public PermissionAuthorizationFilterFactory(Project.Core.Attributes.RequiresPermissionAttribute attribute)
+    public PermissionAuthorizationFilterFactory(Project.Domain.Attributes.RequiresPermissionAttribute attribute)
     {
         _attribute = attribute;
     }

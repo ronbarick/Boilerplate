@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Project.Core.Entities;
-using Project.Core.Interfaces;
-using Project.Core.Localization;
+using Project.Domain.Entities;
+using Project.Domain.Interfaces;
+using Project.Domain.Localization;
 
 namespace Project.Infrastructure.Services;
 
@@ -52,7 +52,7 @@ public class PermissionManager : IPermissionManager
 
         if (role == null)
         {
-            throw new ArgumentException(await _localizationManager.GetStringAsync(Project.Core.Localization.ProjectLocalizationResource.ResourceName, "Common:NotFound", $"Role {roleName}"));
+            throw new ArgumentException(await _localizationManager.GetStringAsync(Project.Domain.Localization.ProjectLocalizationResource.ResourceName, "Common:NotFound", $"Role {roleName}"));
         }
 
         return await GetForRoleAsync(role.Id);
@@ -106,7 +106,7 @@ public class PermissionManager : IPermissionManager
     public async Task GrantAllAsync(Guid roleId, string[] permissionNames)
     {
         var role = await _roleRepository.GetQueryable().FirstOrDefaultAsync(r => r.Id == roleId);
-        if (role == null) throw new ArgumentException(await _localizationManager.GetStringAsync(Project.Core.Localization.ProjectLocalizationResource.ResourceName, "Common:NotFound", $"Role {roleId}"));
+        if (role == null) throw new ArgumentException(await _localizationManager.GetStringAsync(Project.Domain.Localization.ProjectLocalizationResource.ResourceName, "Common:NotFound", $"Role {roleId}"));
 
         var existingPermissions = await _rolePermissionRepository
             .GetQueryable()
@@ -144,7 +144,7 @@ public class PermissionManager : IPermissionManager
 
         if (role == null)
         {
-            throw new ArgumentException(await _localizationManager.GetStringAsync(Project.Core.Localization.ProjectLocalizationResource.ResourceName, "Common:NotFound", $"Role {roleName}"));
+            throw new ArgumentException(await _localizationManager.GetStringAsync(Project.Domain.Localization.ProjectLocalizationResource.ResourceName, "Common:NotFound", $"Role {roleName}"));
         }
 
         await SetForRoleAsync(role.Id, permissionName, isGranted);
@@ -158,7 +158,7 @@ public class PermissionManager : IPermissionManager
 
         if (role == null)
         {
-            throw new ArgumentException(await _localizationManager.GetStringAsync(Project.Core.Localization.ProjectLocalizationResource.ResourceName, "Common:NotFound", $"Role {roleName}"));
+            throw new ArgumentException(await _localizationManager.GetStringAsync(Project.Domain.Localization.ProjectLocalizationResource.ResourceName, "Common:NotFound", $"Role {roleName}"));
         }
 
         await GrantAllAsync(role.Id, permissionNames);

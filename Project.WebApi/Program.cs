@@ -6,11 +6,11 @@ using Microsoft.EntityFrameworkCore;
 using Hangfire;
 using Hangfire.PostgreSql;
 using Project.Infrastructure.Sms;
-using Project.Core.Interfaces;
+using Project.Domain.Interfaces;
 using Project.Infrastructure.Services;
 using Project.WebApi.ExceptionHandling;
 using Project.Application.BackgroundJobs;
-using Project.Infrastructure.BackgroundJobs;
+using Project.BackgroundJobs;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -67,6 +67,9 @@ builder.Services.AddSignalR();
 
 // Swagger/OpenAPI
 builder.Services.AddSwaggerWithJwt();
+
+// Output Caching (required by CacheInvalidationService)
+builder.Services.AddOutputCache();
 
 var app = builder.Build();
 
@@ -184,9 +187,9 @@ static void ConfigureRecurringJobs(IServiceProvider services)
         job => job.ExecuteAsync(),
         "0 22 * * *"); // Cron: Every day at 22:00 (10 PM)
 
-    // Two-Factor Cleanup Job - Runs hourly
-    recurringJobManager.AddOrUpdate<TwoFactorCleanupJob>(
-        "two-factor-cleanup",
-        job => job.ExecuteAsync(),
-        Cron.Hourly);
+    // Two-Factor Cleanup Job - Runs hourly (commented out - job class doesn't exist)
+    // recurringJobManager.AddOrUpdate<TwoFactorCleanupJob>(
+    //     "two-factor-cleanup",
+    //     job => job.ExecuteAsync(),
+    //     Cron.Hourly);
 }

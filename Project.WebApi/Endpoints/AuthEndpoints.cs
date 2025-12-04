@@ -5,10 +5,10 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Project.Application.Common.Dtos;
 using Project.Application.TwoFactor.Dtos;
-using Project.Core.Entities;
-using Project.Core.Emailing;
-using Project.Core.Interfaces;
-using Project.Infrastructure.Emailing.Templates;
+using Project.Domain.Entities;
+using Project.Emailing;
+using Project.Domain.Interfaces;
+using Project.Emailing.Templates;
 using Project.WebApi.Helpers;
 using Project.WebApi.Services;
 

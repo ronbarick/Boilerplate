@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Project.Core.Entities.Notifications;
-using Project.Core.Interfaces.Notifications;
+using Project.Domain.Entities.Notifications;
+using Project.Domain.Interfaces.Notifications;
 
 namespace Project.WebApi.Services
 {

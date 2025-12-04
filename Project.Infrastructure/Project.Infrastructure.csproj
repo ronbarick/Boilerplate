@@ -27,7 +27,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Project.Core\Project.Core.csproj" />
+    <ProjectReference Include="..\Project.Domain\Project.Domain.csproj" />
+    <ProjectReference Include="..\Project.Emailing\Project.Emailing.csproj" />
+    <ProjectReference Include="..\Project.Caching\Project.Caching.csproj" />
   </ItemGroup>
 
 </Project>

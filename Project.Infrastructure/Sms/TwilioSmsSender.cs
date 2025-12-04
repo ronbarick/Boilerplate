@@ -3,8 +3,8 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
-using Project.Core.Interfaces;
-using Project.Core.Sms;
+using Project.Domain.Interfaces;
+using Project.Domain.Sms;
 
 namespace Project.Infrastructure.Sms;
 

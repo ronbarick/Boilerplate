@@ -1,5 +1,5 @@
 using System;
-using Project.Core.Exceptions;
+using Project.Domain.Shared.Exceptions;
 
 namespace Project.WebApi.ExceptionHandling;
 

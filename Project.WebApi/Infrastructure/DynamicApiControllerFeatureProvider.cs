@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc.ApplicationModels;
 using Microsoft.AspNetCore.Mvc.ApplicationParts;
 using Microsoft.AspNetCore.Mvc.Controllers;
-using Project.Core.Interfaces;
+using Project.Domain.Interfaces;
 using System.Reflection;
 
 namespace Project.WebApi.Infrastructure;

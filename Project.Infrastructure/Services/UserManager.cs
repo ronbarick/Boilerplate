@@ -3,8 +3,8 @@ using System.Security.Cryptography;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using Project.Core.Entities;
-using Project.Core.Interfaces;
+using Project.Domain.Entities;
+using Project.Domain.Interfaces;
 
 namespace Project.Infrastructure.Services;
 

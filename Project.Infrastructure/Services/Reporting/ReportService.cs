@@ -1,8 +1,8 @@
 using Hangfire;
 using Microsoft.Extensions.Logging;
-using Project.Core.Dtos.Reporting;
-using Project.Core.Interfaces.Reporting;
-using Project.Core.Interfaces;
+using Project.Domain.Dtos.Reporting;
+using Project.Domain.Interfaces.Reporting;
+using Project.Domain.Interfaces;
 
 namespace Project.Infrastructure.Services.Reporting;
 

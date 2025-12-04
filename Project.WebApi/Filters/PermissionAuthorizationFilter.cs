@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc.Filters;
-using Project.Core.Attributes;
-using Project.Core.Interfaces;
+using Project.Domain.Attributes;
+using Project.Domain.Interfaces;
 
 namespace Project.WebApi.Filters;
 
@@ -10,9 +10,9 @@ namespace Project.WebApi.Filters;
 public class PermissionAuthorizationFilter : IAsyncAuthorizationFilter
 {
     private readonly IPermissionChecker _permissionChecker;
-    private readonly Project.Core.Attributes.RequiresPermissionAttribute _attribute;
+    private readonly Project.Domain.Attributes.RequiresPermissionAttribute _attribute;
 
-    public PermissionAuthorizationFilter(IPermissionChecker permissionChecker, Project.Core.Attributes.RequiresPermissionAttribute attribute)
+    public PermissionAuthorizationFilter(IPermissionChecker permissionChecker, Project.Domain.Attributes.RequiresPermissionAttribute attribute)
     {
         _permissionChecker = permissionChecker;
         _attribute = attribute;

@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
-using Project.Core.Interfaces;
-using Project.Core.Localization;
+using Project.Domain.Interfaces;
+using Project.Domain.Localization;
 using System.Globalization;
 
 namespace Project.Infrastructure.Localization;

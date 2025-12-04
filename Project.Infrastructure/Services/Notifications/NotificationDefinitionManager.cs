@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
-using Project.Core.Interfaces.Notifications;
-using Project.Core.Notifications;
+using Project.Domain.Interfaces.Notifications;
+using Project.Domain.Notifications;
 
 namespace Project.Infrastructure.Services.Notifications
 {

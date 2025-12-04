@@ -2,8 +2,8 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.SignalR;
-using Project.Core.Entities.Notifications;
-using Project.Core.Interfaces.Notifications;
+using Project.Domain.Entities.Notifications;
+using Project.Domain.Interfaces.Notifications;
 using Project.WebApi.Hubs;
 
 namespace Project.WebApi.Services
