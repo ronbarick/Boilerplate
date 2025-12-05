@@ -1,7 +1,7 @@
 using FluentValidation;
 using Project.Application.Permissions.Dtos;
 
-namespace Project.Application.Validators;
+namespace Project.Application.Permissions.Validators;
 
 public class UpdateRolePermissionsInputValidator : AbstractValidator<UpdateRolePermissionsInput>
 {

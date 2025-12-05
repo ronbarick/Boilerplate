@@ -7,7 +7,7 @@ using Microsoft.Extensions.Logging;
 using Project.Domain.Entities;
 using Project.Domain.Interfaces;
 
-namespace Project.Application.BackgroundJobs;
+namespace Project.Application.BackgroundJobs.Email;
 
 /// <summary>
 /// Background job for sending email confirmation links.

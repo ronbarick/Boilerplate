@@ -1,29 +1,28 @@
 using System;
 using System.Collections.Generic;
-using System.Net;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 
 using Project.Domain.Entities;
 using Project.Domain.Interfaces;
 
-namespace Project.Application.BackgroundJobs;
+namespace Project.Application.BackgroundJobs.Email;
 
 /// <summary>
-/// Background job for sending set password emails to users created without passwords.
+/// Background job for sending welcome emails to new users.
 /// </summary>
-public class SendSetPasswordEmailJob
+public class SendWelcomeEmailJob
 {
     private readonly IRepository<User> _userRepository;
     private readonly IEmailSender _emailSender;
     private readonly IEmailTemplateProvider _emailTemplateProvider;
-    private readonly ILogger<SendSetPasswordEmailJob> _logger;
+    private readonly ILogger<SendWelcomeEmailJob> _logger;
 
-    public SendSetPasswordEmailJob(
+    public SendWelcomeEmailJob(
         IRepository<User> userRepository,
         IEmailSender emailSender,
         IEmailTemplateProvider emailTemplateProvider,
-        ILogger<SendSetPasswordEmailJob> logger)
+        ILogger<SendWelcomeEmailJob> logger)
     {
         _userRepository = userRepository;
         _emailSender = emailSender;
@@ -31,38 +30,34 @@ public class SendSetPasswordEmailJob
         _logger = logger;
     }
 
-    public async Task ExecuteAsync(Guid userId, string token)
+    public async Task ExecuteAsync(Guid userId)
     {
         try
         {
-            _logger.LogInformation("Sending set-password email for user {UserId}", userId);
+            _logger.LogInformation("Sending welcome email for user {UserId}", userId);
             
             var user = await _userRepository.GetAsync(userId);
-
-            var encodedToken = WebUtility.UrlEncode(token);
-            var setPasswordLink = $"/account/set-password?userId={userId}&token={encodedToken}";
 
             var parameters = new Dictionary<string, string>
             {
                 { "Name", user.Name },
-                { "SetPasswordLink", setPasswordLink },
-                { "ExpirationHours", "24" }
+                { "EmailAddress", user.EmailAddress }
             };
 
-            var body = await _emailTemplateProvider.GetTemplateAsync("SetPasswordEmail", parameters);
+            var body = await _emailTemplateProvider.GetTemplateAsync("WelcomeEmail", parameters);
 
             await _emailSender.QueueAsync(
                 user.EmailAddress,
-                "Set Your Password",
+                "Welcome to Our Platform",
                 body,
                 isBodyHtml: true);
                 
-            _logger.LogInformation("Set-password email queued successfully for user {UserId}", userId);
+            _logger.LogInformation("Welcome email queued successfully for user {UserId}", userId);
         }
         catch (Exception ex)
         {
-            _logger.LogError(ex, "Failed to send set-password email for user {UserId}", userId);
-            throw;
+            _logger.LogError(ex, "Failed to send welcome email for user {UserId}", userId);
+            throw; // Re-throw to mark job as failed in Hangfire
         }
     }
 }

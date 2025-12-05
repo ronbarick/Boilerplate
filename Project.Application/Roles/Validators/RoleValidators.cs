@@ -1,7 +1,7 @@
 using FluentValidation;
 using Project.Application.Roles.Dtos;
 
-namespace Project.Application.Validators;
+namespace Project.Application.Roles.Validators;
 
 public class CreateRoleDtoValidator : AbstractValidator<CreateRoleDto>
 {

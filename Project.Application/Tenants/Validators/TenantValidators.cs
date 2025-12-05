@@ -1,7 +1,7 @@
 using FluentValidation;
 using Project.Application.Tenants.Dtos;
 
-namespace Project.Application.Validators;
+namespace Project.Application.Tenants.Validators;
 
 public class CreateTenantDtoValidator : AbstractValidator<CreateTenantDto>
 {

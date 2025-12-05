@@ -12,7 +12,7 @@ using Project.Application.Services;
 using Project.Application.Users.Dtos;
 using Project.Domain.Localization;
 
-using Project.Application.BackgroundJobs;
+using Project.Application.BackgroundJobs.Email;
 
 
 namespace Project.Application.Users;

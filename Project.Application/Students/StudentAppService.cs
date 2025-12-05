@@ -173,14 +173,14 @@ public class StudentAppService : AppServiceBase, IStudentAppService
         if (delayInMinutes > 0)
         {
             // Schedule job to run after delay
-            jobId = _backgroundJobManager.Schedule<BackgroundJobs.StudentListJob>(
+            jobId = _backgroundJobManager.Schedule<BackgroundJobs.Students.StudentListJob>(
                 job => job.ExecuteAsync(),
                 TimeSpan.FromMinutes(delayInMinutes));
         }
         else
         {
             // Run immediately
-            jobId = _backgroundJobManager.Enqueue<BackgroundJobs.StudentListJob>(
+            jobId = _backgroundJobManager.Enqueue<BackgroundJobs.Students.StudentListJob>(
                 job => job.ExecuteAsync());
         }
 

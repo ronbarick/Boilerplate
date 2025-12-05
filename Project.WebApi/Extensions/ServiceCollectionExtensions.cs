@@ -11,7 +11,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Project.Application.Mappings;
 using Project.Application.Services;
-using Project.Application.Validators;
+using Project.Application.Users.Validators;
 using Project.Emailing;
 using Project.Domain.Interfaces;
 using Project.Domain.Interfaces.Common;

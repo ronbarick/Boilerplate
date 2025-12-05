@@ -15,10 +15,6 @@
       "RelativeMoniker": "D:0:0:{536FEBA8-2705-40A5-9B0E-35AC95EE41D8}|Project.Infrastructure\\Project.Infrastructure.csproj|solutionrelative:project.infrastructure\\localization\\jsonlocalizationprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F60BB70-18B9-41FC-9EA0-E8B57A226731}|Project.Application\\Project.Application.csproj|d:\\projects\\boilerplate\\boilerplate\\backend\\project.application\\validators\\permissionvalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F60BB70-18B9-41FC-9EA0-E8B57A226731}|Project.Application\\Project.Application.csproj|solutionrelative:project.application\\validators\\permissionvalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{536FEBA8-2705-40A5-9B0E-35AC95EE41D8}|Project.Infrastructure\\Project.Infrastructure.csproj|d:\\projects\\boilerplate\\boilerplate\\backend\\project.infrastructure\\services\\reporting\\generators\\csvreportgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{536FEBA8-2705-40A5-9B0E-35AC95EE41D8}|Project.Infrastructure\\Project.Infrastructure.csproj|solutionrelative:project.infrastructure\\services\\reporting\\generators\\csvreportgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -142,6 +138,36 @@
           "Children": [
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CultureProvider.cs",
+              "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Infrastructure\\Localization\\CultureProvider.cs",
+              "RelativeDocumentMoniker": "Project.Infrastructure\\Localization\\CultureProvider.cs",
+              "ToolTip": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Infrastructure\\Localization\\CultureProvider.cs",
+              "RelativeToolTip": "Project.Infrastructure\\Localization\\CultureProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T03:51:00.123Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JsonLocalizationProvider.cs",
+              "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Infrastructure\\Localization\\JsonLocalizationProvider.cs",
+              "RelativeDocumentMoniker": "Project.Infrastructure\\Localization\\JsonLocalizationProvider.cs",
+              "ToolTip": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Infrastructure\\Localization\\JsonLocalizationProvider.cs",
+              "RelativeToolTip": "Project.Infrastructure\\Localization\\JsonLocalizationProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T03:51:00.957Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
@@ -162,47 +188,11 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "JsonLocalizationProvider.cs",
-              "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Infrastructure\\Localization\\JsonLocalizationProvider.cs",
-              "RelativeDocumentMoniker": "Project.Infrastructure\\Localization\\JsonLocalizationProvider.cs",
-              "ToolTip": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Infrastructure\\Localization\\JsonLocalizationProvider.cs",
-              "RelativeToolTip": "Project.Infrastructure\\Localization\\JsonLocalizationProvider.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T03:51:00.957Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CultureProvider.cs",
-              "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Infrastructure\\Localization\\CultureProvider.cs",
-              "RelativeDocumentMoniker": "Project.Infrastructure\\Localization\\CultureProvider.cs",
-              "ToolTip": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Infrastructure\\Localization\\CultureProvider.cs",
-              "RelativeToolTip": "Project.Infrastructure\\Localization\\CultureProvider.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T03:51:00.123Z"
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "PermissionValidators.cs",
-              "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Application\\Validators\\PermissionValidators.cs",
-              "RelativeDocumentMoniker": "Project.Application\\Validators\\PermissionValidators.cs",
-              "ToolTip": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Application\\Validators\\PermissionValidators.cs",
-              "RelativeToolTip": "Project.Application\\Validators\\PermissionValidators.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T03:50:17.123Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "CsvReportGenerator.cs",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Infrastructure\\Services\\Reporting\\Generators\\CsvReportGenerator.cs",
               "RelativeDocumentMoniker": "Project.Infrastructure\\Services\\Reporting\\Generators\\CsvReportGenerator.cs",
@@ -214,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "SaaSAddonConfiguration.cs",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Infrastructure\\Data\\Configurations\\SaaS\\SaaSAddonConfiguration.cs",
               "RelativeDocumentMoniker": "Project.Infrastructure\\Data\\Configurations\\SaaS\\SaaSAddonConfiguration.cs",
@@ -226,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "StripeService.cs",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Infrastructure\\Services\\SaaS\\StripeService.cs",
               "RelativeDocumentMoniker": "Project.Infrastructure\\Services\\SaaS\\StripeService.cs",
@@ -238,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "ICurrentUser.cs",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Domain\\Interfaces\\ICurrentUser.cs",
               "RelativeDocumentMoniker": "Project.Domain\\Interfaces\\ICurrentUser.cs",
@@ -250,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "ApplicationConfigurationAppService.cs",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Application\\AppConfiguration\\ApplicationConfigurationAppService.cs",
               "RelativeDocumentMoniker": "Project.Application\\AppConfiguration\\ApplicationConfigurationAppService.cs",
@@ -262,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "IFeatureChecker.cs",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Domain\\Interfaces\\IFeatureChecker.cs",
               "RelativeDocumentMoniker": "Project.Domain\\Interfaces\\IFeatureChecker.cs",
@@ -274,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "GlobalUsings.cs",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.BackgroundJobs\\GlobalUsings.cs",
               "RelativeDocumentMoniker": "Project.BackgroundJobs\\GlobalUsings.cs",
@@ -286,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "IRecurringJobManager.cs",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.BackgroundJobs\\IRecurringJobManager.cs",
               "RelativeDocumentMoniker": "Project.BackgroundJobs\\IRecurringJobManager.cs",
@@ -298,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "IBackgroundJobManager.cs",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.BackgroundJobs\\IBackgroundJobManager.cs",
               "RelativeDocumentMoniker": "Project.BackgroundJobs\\IBackgroundJobManager.cs",
@@ -310,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "UnitOfWorkMiddleware.cs",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.WebApi\\Middleware\\UnitOfWorkMiddleware.cs",
               "RelativeDocumentMoniker": "Project.WebApi\\Middleware\\UnitOfWorkMiddleware.cs",
@@ -322,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "UnitOfWorkActionFilter.cs",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.WebApi\\Filters\\UnitOfWorkActionFilter.cs",
               "RelativeDocumentMoniker": "Project.WebApi\\Filters\\UnitOfWorkActionFilter.cs",
@@ -334,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "TotpHelper.cs",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Infrastructure\\Security\\TotpHelper.cs",
               "RelativeDocumentMoniker": "Project.Infrastructure\\Security\\TotpHelper.cs",
@@ -346,7 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.WebApi\\appsettings.json",
               "RelativeDocumentMoniker": "Project.WebApi\\appsettings.json",
@@ -358,7 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "PasswordReset.html",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.WebApi\\EmailTemplates\\PasswordReset.html",
               "RelativeDocumentMoniker": "Project.WebApi\\EmailTemplates\\PasswordReset.html",
@@ -370,7 +360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "fr.json",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.WebApi\\Localization\\Project\\fr.json",
               "RelativeDocumentMoniker": "Project.WebApi\\Localization\\Project\\fr.json",
@@ -382,7 +372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "en.json",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.WebApi\\Localization\\Project\\en.json",
               "RelativeDocumentMoniker": "Project.WebApi\\Localization\\Project\\en.json",
@@ -394,7 +384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "PermissionFilter.cs",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.WebApi\\Filters\\PermissionFilter.cs",
               "RelativeDocumentMoniker": "Project.WebApi\\Filters\\PermissionFilter.cs",
@@ -406,7 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "PermissionAuthorizationFilter.cs",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.WebApi\\Filters\\PermissionAuthorizationFilter.cs",
               "RelativeDocumentMoniker": "Project.WebApi\\Filters\\PermissionAuthorizationFilter.cs",
@@ -418,7 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "LocalizationValidationFilter.cs",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.WebApi\\Filters\\LocalizationValidationFilter.cs",
               "RelativeDocumentMoniker": "Project.WebApi\\Filters\\LocalizationValidationFilter.cs",
@@ -430,7 +420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "AutoValidateFilter.cs",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.WebApi\\Filters\\AutoValidateFilter.cs",
               "RelativeDocumentMoniker": "Project.WebApi\\Filters\\AutoValidateFilter.cs",
@@ -442,7 +432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "AuditActionFilter.cs",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.WebApi\\Filters\\AuditActionFilter.cs",
               "RelativeDocumentMoniker": "Project.WebApi\\Filters\\AuditActionFilter.cs",
@@ -454,7 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "UserAppService.cs",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Application\\Users\\UserAppService.cs",
               "RelativeDocumentMoniker": "Project.Application\\Users\\UserAppService.cs",
@@ -472,14 +462,14 @@
               "RelativeDocumentMoniker": "Project.Application\\Students\\StudentAppService.cs",
               "ToolTip": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Application\\Students\\StudentAppService.cs",
               "RelativeToolTip": "Project.Application\\Students\\StudentAppService.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAApwEoAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T17:28:44.809Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Core\\UnitOfWork\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "Project.Core\\UnitOfWork\\IUnitOfWork.cs",
@@ -491,7 +481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "IUnitOfWorkManager.cs",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Core\\UnitOfWork\\IUnitOfWorkManager.cs",
               "RelativeDocumentMoniker": "Project.Core\\UnitOfWork\\IUnitOfWorkManager.cs",
@@ -503,7 +493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "UnitOfWorkAttribute.cs",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Core\\UnitOfWork\\UnitOfWorkAttribute.cs",
               "RelativeDocumentMoniker": "Project.Core\\UnitOfWork\\UnitOfWorkAttribute.cs",
@@ -515,7 +505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 28,
               "Title": "RequiresPermissionAttribute.cs",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Core\\Attributes\\RequiresPermissionAttribute.cs",
               "RelativeDocumentMoniker": "Project.Core\\Attributes\\RequiresPermissionAttribute.cs",
@@ -527,7 +517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 29,
               "Title": "RemoteServiceAttribute.cs",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Core\\Attributes\\RemoteServiceAttribute.cs",
               "RelativeDocumentMoniker": "Project.Core\\Attributes\\RemoteServiceAttribute.cs",
@@ -539,7 +529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 30,
               "Title": "IDataFilter.cs",
               "DocumentMoniker": "D:\\Projects\\Boilerplate\\Boilerplate\\Backend\\Project.Core\\DataFilters\\IDataFilter.cs",
               "RelativeDocumentMoniker": "Project.Core\\DataFilters\\IDataFilter.cs",

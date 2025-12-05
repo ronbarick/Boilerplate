@@ -5,7 +5,7 @@ using Project.Application.Common.Dtos;
 using Project.Application.Students;
 using Project.Application.Students.Dtos;
 
-namespace Project.Application.BackgroundJobs;
+namespace Project.Application.BackgroundJobs.Students;
 
 /// <summary>
 /// Recurring job that fetches student list daily at 10 PM

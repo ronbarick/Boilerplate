@@ -9,7 +9,7 @@ using Project.Infrastructure.Sms;
 using Project.Domain.Interfaces;
 using Project.Infrastructure.Services;
 using Project.WebApi.ExceptionHandling;
-using Project.Application.BackgroundJobs;
+using Project.Application.BackgroundJobs.Students;
 using Project.BackgroundJobs;
 
 var builder = WebApplication.CreateBuilder(args);

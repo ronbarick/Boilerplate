@@ -1,7 +1,7 @@
 using FluentValidation;
 using Project.Application.Students.Dtos;
 
-namespace Project.Application.Validators;
+namespace Project.Application.Students.Validators;
 
 public class CreateStudentDtoValidator : AbstractValidator<CreateStudentDto>
 {
